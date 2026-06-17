@@ -9,17 +9,17 @@ The package is designed to answer reviewer requests for implementation detail, i
 - knowledge-graph schema
 - clustering and merge procedure
 - conflict-resolution rules
-- validation criteria for the merged plan
+- iteration budget
+- idea for merging
 - kernel retrieval scoring formula and weights
-- top-k value
 - embedding model
 - kernel adaptation
 - glue-logic generation method
 - checker/tool feedback loop
 - diagnostics passed to the LLM
-- iteration budget
 
-The implementation is intentionally modular. Each stage can be run independently or as part of the full `S3 -> S2 -> S1` flow.
+
+The implementation is modular. Each stage can be run independently or as part of the full `S3 -> S2 -> S1` flow.
 
 ## Folder structure
 
