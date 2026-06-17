@@ -1,0 +1,19 @@
+Note: The kernel library consists of 157 reusable RTL kernels grouped into three categories. 
+(1) Human-written reusable primitives (62 kernels), 
+developed and reviewed by experienced RTL engineers, 
+including parameterized counters, shift registers, FIFOs, 
+synchronizers, arbiters, UART blocks, clock dividers, 
+FSM templates, and datapath operators. Some of these kernels originated from 
+industrial RTL design experience and were later generalized into reusable forms; 
+due to confidentiality agreements, the originating organizations and 
+engineers cannot be disclosed. 
+(2) Benchmark-derived reusable modules (71 kernels), 
+extracted and generalized from publicly available sources 
+including RTL-LLM benchmark designs, OpenCores components, 
+and educational RTL examples after removing task-specific logic 
+and normalizing interfaces. 
+(3) Curated design patterns (24 kernels), consisting of reusable architectural 
+templates such as CDC synchronizers, handshake controllers, 
+pipelined arithmetic units, resource-sharing structures, protocol adapters, 
+and FSM skeletons. All kernels were validated through compilation, simulation,
+and synthesis checks before inclusion in the library.

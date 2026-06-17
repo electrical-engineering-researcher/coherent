@@ -1,0 +1,178 @@
+{
+  "plan_id": "merged_S3_plan",
+  "original_spec": "Design an 8-bit serial-to-parallel converter. Capture one serial bit per clock, accumulate 8 bits, then update parallel_out and assert valid for one cycle. Use synchronous reset.",
+  "modules": [
+    {
+      "name": "shift_register",
+      "category": "datapath",
+      "ports": [],
+      "parameters": {},
+      "role": "accumulate serial bits"
+    },
+    {
+      "name": "bit_counter",
+      "category": "counter",
+      "ports": [],
+      "parameters": {},
+      "role": "count received bits"
+    },
+    {
+      "name": "control_fsm",
+      "category": "fsm",
+      "ports": [],
+      "parameters": {},
+      "role": "assert valid at frame end"
+    }
+  ],
+  "ports": [
+    {
+      "name": "clk",
+      "direction": "in",
+      "width": 1,
+      "dtype": "std_logic",
+      "clock_domain": null,
+      "description": ""
+    },
+    {
+      "name": "rst",
+      "direction": "in",
+      "width": 1,
+      "dtype": "std_logic",
+      "clock_domain": null,
+      "description": ""
+    },
+    {
+      "name": "serial_in",
+      "direction": "in",
+      "width": 1,
+      "dtype": "std_logic",
+      "clock_domain": null,
+      "description": ""
+    },
+    {
+      "name": "parallel_out",
+      "direction": "out",
+      "width": 8,
+      "dtype": "std_logic_vector",
+      "clock_domain": null,
+      "description": ""
+    },
+    {
+      "name": "valid",
+      "direction": "out",
+      "width": 1,
+      "dtype": "std_logic",
+      "clock_domain": null,
+      "description": ""
+    }
+  ],
+  "signals": [
+    {
+      "name": "shift_reg",
+      "width": 8,
+      "dtype": "std_logic_vector",
+      "producer": "module:shift_register",
+      "consumers": [
+        "port:parallel_out"
+      ],
+      "clock_domain": null,
+      "description": ""
+    },
+    {
+      "name": "bit_count",
+      "width": 3,
+      "dtype": "std_logic",
+      "producer": "module:bit_counter",
+      "consumers": [
+        "module:control_fsm"
+      ],
+      "clock_domain": null,
+      "description": ""
+    },
+    {
+      "name": "count_done",
+      "width": 1,
+      "dtype": "std_logic",
+      "producer": "module:bit_counter",
+      "consumers": [
+        "module:control_fsm"
+      ],
+      "clock_domain": null,
+      "description": ""
+    },
+    {
+      "name": "valid_int",
+      "width": 1,
+      "dtype": "std_logic",
+      "producer": "module:control_fsm",
+      "consumers": [
+        "port:valid"
+      ],
+      "clock_domain": null,
+      "description": ""
+    },
+    {
+      "name": "parallel_reg",
+      "width": 8,
+      "dtype": "std_logic_vector",
+      "producer": "module:control_fsm",
+      "consumers": [
+        "port:parallel_out"
+      ],
+      "clock_domain": null,
+      "description": ""
+    }
+  ],
+  "fsms": [
+    {
+      "name": "control_fsm",
+      "states": [
+        "IDLE",
+        "SHIFT",
+        "OUTPUT"
+      ],
+      "initial_state": "IDLE",
+      "transitions": [
+        {
+          "from": "IDLE",
+          "to": "SHIFT",
+          "condition": "not reset"
+        },
+        {
+          "from": "SHIFT",
+          "to": "OUTPUT",
+          "condition": "count_done"
+        },
+        {
+          "from": "OUTPUT",
+          "to": "SHIFT",
+          "condition": "next frame"
+        }
+      ],
+      "output_style": "moore"
+    }
+  ],
+  "datapath": [
+    "bit_counter",
+    "parallel_output_register",
+    "shift_register"
+  ],
+  "timing": [
+    {
+      "name": "parallel_output_after_frame",
+      "description": "parallel_out updates only after 8 valid serial bits are received",
+      "latency_cycles": 8,
+      "output_event": "bit_counter_overflow"
+    }
+  ],
+  "reset_policy": "synchronous",
+  "constraints": [
+    "one serial bit per clock",
+    "parallel_out is registered",
+    "valid asserted for one cycle after 8 bits"
+  ],
+  "assumptions": [
+    "parallel_out may be visible during partial frame"
+  ],
+  "confidence": 0.8066666666666666
+}

@@ -1,0 +1,192 @@
+[
+  {
+    "kernel_id": "K_SHIFT_001",
+    "name": "param_shift_register",
+    "version": "v2.3",
+    "category": "datapath",
+    "subcategory": "serial_parallel_conversion",
+    "source_type": "human_written_primitive",
+    "origin": "Developed by experienced RTL engineers and later generalized for reusable library inclusion",
+    "description": "Parameterized serial-in parallel-out shift register supporting configurable width, synchronous reset, clock-enable operation, and optional frame-completion signaling.",
+    "functional_summary": "Captures one serial bit per clock cycle and shifts data into an internal register. After WIDTH cycles the complete parallel word becomes available.",
+    "design_intent": [
+      "Serial-to-parallel conversion",
+      "Data accumulation",
+      "Protocol framing",
+      "Streaming datapaths"
+    ],
+    "supported_use_cases": [
+      "Serial-to-parallel converter",
+      "UART receive path",
+      "Bitstream collection",
+      "Packet assembly",
+      "Deserializer front-end"
+    ],
+    "tags": [
+      "shift_register",
+      "serial",
+      "parallel",
+      "datapath",
+      "sequential",
+      "sipo",
+      "frame_accumulation"
+    ],
+    "parameters": {
+      "WIDTH": {
+        "type": "integer",
+        "default": 8,
+        "min": 2,
+        "max": 1024
+      }
+    },
+    "ports": [
+      {"name":"clk","direction":"in","type":"std_logic"},
+      {"name":"rst","direction":"in","type":"std_logic"},
+      {"name":"enable","direction":"in","type":"std_logic"},
+      {"name":"serial_in","direction":"in","type":"std_logic"},
+      {"name":"parallel_out","direction":"out","type":"std_logic_vector(WIDTH-1 downto 0)"}
+    ],
+    "timing_characteristics": {
+      "latency_cycles": "WIDTH",
+      "throughput": "1 bit per cycle",
+      "registered_output": true
+    },
+    "reset_policy": {
+      "style":"synchronous",
+      "polarity":"active_high"
+    },
+    "verification": {
+      "syntax_pass": true,
+      "simulation_pass": true,
+      "synthesis_pass": true,
+      "lint_pass": true
+    },
+    "adaptation_rules": [
+      "WIDTH parameter scaling",
+      "Port renaming",
+      "Enable-signal insertion",
+      "Reset normalization"
+    ]
+  },
+
+  {
+    "kernel_id": "K_COUNTER_001",
+    "name": "generic_modulo_counter",
+    "version": "v3.1",
+    "category": "control",
+    "subcategory": "counter",
+    "source_type": "benchmark_derived",
+    "origin": "Generalized from public RTL benchmark designs after removing task-specific logic and normalizing interfaces",
+    "description": "Parameterized modulo counter with enable control, terminal-count pulse generation, synchronous reset, and configurable modulus.",
+    "functional_summary": "Counts from 0 to MODULO-1 and generates a one-cycle terminal-count pulse before wraparound.",
+    "design_intent": [
+      "Control sequencing",
+      "Cycle counting",
+      "Frame tracking",
+      "Event scheduling"
+    ],
+    "supported_use_cases": [
+      "Modulo-N counters",
+      "Frame-length tracking",
+      "Protocol timers",
+      "Frequency dividers",
+      "FSM triggers"
+    ],
+    "tags": [
+      "counter",
+      "modulo",
+      "terminal_count",
+      "control",
+      "sequential",
+      "frame_tracking"
+    ],
+    "parameters": {
+      "WIDTH": {
+        "type":"integer",
+        "default":3
+      },
+      "MODULO": {
+        "type":"integer",
+        "default":8
+      }
+    },
+    "ports": [
+      {"name":"clk","direction":"in"},
+      {"name":"rst","direction":"in"},
+      {"name":"enable","direction":"in"},
+      {"name":"count","direction":"out"},
+      {"name":"terminal_count","direction":"out"}
+    ],
+    "timing_characteristics": {
+      "latency_cycles": 1,
+      "terminal_count_duration": "1 cycle"
+    },
+    "verification": {
+      "syntax_pass": true,
+      "simulation_pass": true,
+      "synthesis_pass": true
+    },
+    "adaptation_rules": [
+      "Modulo adjustment",
+      "Counter-width scaling",
+      "Terminal-count rewiring"
+    ]
+  },
+
+  {
+    "kernel_id": "K_FSM_001",
+    "name": "moore_fsm_template",
+    "version": "v4.0",
+    "category": "control",
+    "subcategory": "finite_state_machine",
+    "source_type": "curated_design_pattern",
+    "origin": "Curated reusable FSM architecture pattern derived from industrial RTL design practice",
+    "description": "Reusable Moore FSM template with registered outputs, explicit next-state logic, safe default transitions, illegal-state recovery, and reset initialization.",
+    "functional_summary": "Provides a synthesizable FSM skeleton that can be adapted to protocol controllers, sequence detectors, traffic controllers, and datapath coordinators.",
+    "design_intent": [
+      "Control sequencing",
+      "Protocol management",
+      "Datapath coordination"
+    ],
+    "supported_use_cases": [
+      "Sequence detector",
+      "Traffic light controller",
+      "UART controller",
+      "Handshake controller",
+      "Pipeline coordinator"
+    ],
+    "tags": [
+      "fsm",
+      "moore",
+      "control",
+      "registered_output",
+      "safe_fsm"
+    ],
+    "parameters": {
+      "STATES": {
+        "type":"integer",
+        "default":3
+      }
+    },
+    "fsm_features": {
+      "style":"Moore",
+      "safe_default_transition": true,
+      "illegal_state_recovery": true,
+      "registered_outputs": true
+    },
+    "verification": {
+      "syntax_pass": true,
+      "simulation_pass": true,
+      "synthesis_pass": true,
+      "fsm_lint_pass": true
+    },
+    "adaptation_rules": [
+      "State renaming",
+      "Transition modification",
+      "Output logic customization",
+      "Reset-state reassignment"
+    ]
+  }
+]
+
+

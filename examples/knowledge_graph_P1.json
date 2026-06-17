@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "node_id": "port:clk",
+      "node_type": "port",
+      "name": "clk",
+      "attributes": {
+        "width": 1,
+        "direction": "Direction.IN",
+        "clock_domain": null
+      }
+    },
+    {
+      "node_id": "port:rst",
+      "node_type": "port",
+      "name": "rst",
+      "attributes": {
+        "width": 1,
+        "direction": "Direction.IN",
+        "clock_domain": null
+      }
+    },
+    {
+      "node_id": "port:serial_in",
+      "node_type": "port",
+      "name": "serial_in",
+      "attributes": {
+        "width": 1,
+        "direction": "Direction.IN",
+        "clock_domain": null
+      }
+    },
+    {
+      "node_id": "port:parallel_out",
+      "node_type": "output",
+      "name": "parallel_out",
+      "attributes": {
+        "width": 8,
+        "direction": "Direction.OUT",
+        "clock_domain": null
+      }
+    },
+    {
+      "node_id": "port:valid",
+      "node_type": "output",
+      "name": "valid",
+      "attributes": {
+        "width": 1,
+        "direction": "Direction.OUT",
+        "clock_domain": null
+      }
+    },
+    {
+      "node_id": "signal:shift_reg",
+      "node_type": "register",
+      "name": "shift_reg",
+      "attributes": {
+        "width": 8
+      }
+    },
+    {
+      "node_id": "signal:bit_count",
+      "node_type": "datapath",
+      "name": "bit_count",
+      "attributes": {
+        "width": 3
+      }
+    },
+    {
+      "node_id": "signal:count_done",
+      "node_type": "datapath",
+      "name": "count_done",
+      "attributes": {
+        "width": 1
+      }
+    },
+    {
+      "node_id": "signal:valid_int",
+      "node_type": "datapath",
+      "name": "valid_int",
+      "attributes": {
+        "width": 1
+      }
+    },
+    {
+      "node_id": "module:shift_register",
+      "node_type": "module",
+      "name": "shift_register",
+      "attributes": {
+        "category": "datapath",
+        "role": "accumulate serial bits"
+      }
+    },
+    {
+      "node_id": "module:bit_counter",
+      "node_type": "module",
+      "name": "bit_counter",
+      "attributes": {
+        "category": "counter",
+        "role": "count received bits"
+      }
+    },
+    {
+      "node_id": "module:control_fsm",
+      "node_type": "module",
+      "name": "control_fsm",
+      "attributes": {
+        "category": "fsm",
+        "role": "assert valid at frame end"
+      }
+    },
+    {
+      "node_id": "fsm:control_fsm",
+      "node_type": "fsm",
+      "name": "control_fsm",
+      "attributes": {
+        "output_style": "moore"
+      }
+    },
+    {
+      "node_id": "state:control_fsm:IDLE",
+      "node_type": "fsm_state",
+      "name": "IDLE",
+      "attributes": {}
+    },
+    {
+      "node_id": "state:control_fsm:SHIFT",
+      "node_type": "fsm_state",
+      "name": "SHIFT",
+      "attributes": {}
+    },
+    {
+      "node_id": "state:control_fsm:OUTPUT",
+      "node_type": "fsm_state",
+      "name": "OUTPUT",
+      "attributes": {}
+    },
+    {
+      "node_id": "timing:frame_latency",
+      "node_type": "constraint",
+      "name": "frame_latency",
+      "attributes": {
+        "description": "parallel_out updates only after 8 valid serial bits are received",
+        "latency_cycles": 8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "src": "module:shift_register",
+      "dst": "signal:shift_reg",
+      "edge_type": "drives",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "signal:shift_reg",
+      "dst": "port:parallel_out",
+      "edge_type": "connects_to",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "module:bit_counter",
+      "dst": "signal:bit_count",
+      "edge_type": "drives",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "signal:bit_count",
+      "dst": "module:control_fsm",
+      "edge_type": "connects_to",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "module:bit_counter",
+      "dst": "signal:count_done",
+      "edge_type": "drives",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "signal:count_done",
+      "dst": "module:control_fsm",
+      "edge_type": "connects_to",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "module:control_fsm",
+      "dst": "signal:valid_int",
+      "edge_type": "drives",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "signal:valid_int",
+      "dst": "port:valid",
+      "edge_type": "connects_to",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "fsm:control_fsm",
+      "dst": "state:control_fsm:IDLE",
+      "edge_type": "contains",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "fsm:control_fsm",
+      "dst": "state:control_fsm:SHIFT",
+      "edge_type": "contains",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "fsm:control_fsm",
+      "dst": "state:control_fsm:OUTPUT",
+      "edge_type": "contains",
+      "condition": null,
+      "attributes": {}
+    },
+    {
+      "src": "state:control_fsm:IDLE",
+      "dst": "state:control_fsm:SHIFT",
+      "edge_type": "transitions_to",
+      "condition": "not reset",
+      "attributes": {}
+    },
+    {
+      "src": "state:control_fsm:SHIFT",
+      "dst": "state:control_fsm:OUTPUT",
+      "edge_type": "transitions_to",
+      "condition": "count_done",
+      "attributes": {}
+    },
+    {
+      "src": "state:control_fsm:OUTPUT",
+      "dst": "state:control_fsm:SHIFT",
+      "edge_type": "transitions_to",
+      "condition": "next frame",
+      "attributes": {}
+    }
+  ]
+}

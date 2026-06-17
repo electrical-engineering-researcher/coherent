@@ -1,0 +1,1 @@
+Design an 8-bit serial-to-parallel converter. Capture one serial bit per clock, accumulate 8 bits, then update parallel_out and assert valid for one cycle. Use synchronous reset.

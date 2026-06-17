@@ -1,0 +1,4 @@
+# Minimal requirements. sentence-transformers is optional; code falls back if unavailable.
+pytest>=7.0
+sentence-transformers>=2.2.0
+PyYAML>=6.0

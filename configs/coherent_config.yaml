@@ -1,0 +1,81 @@
+random_seed: 42
+
+llm_decoding:
+  temperature: 0.0
+  top_p: 0.9
+  max_candidate_plans: 5
+
+embedding:
+  model: sentence-transformers/all-mpnet-base-v2
+  dimension: 768
+  normalize: true
+  similarity_metric: cosine
+  fallback: deterministic_tfidf_hashing
+
+s3:
+  candidate_plan_schema_version: v1
+  knowledge_graph_schema_version: v1
+  clustering:
+    method: agglomerative
+    linkage: average
+    metric: cosine_distance
+    threshold_candidates: [0.50, 0.55, 0.60, 0.65, 0.70, 0.75]
+    selection_criterion: silhouette_score
+    dominant_cluster_rule: largest_cluster_then_highest_mean_confidence
+  merge:
+    confidence_threshold_keep: 0.60
+    conflict_resolution_order:
+      - explicit_specification
+      - interface_consistency
+      - timing_consistency
+      - reset_policy
+      - hardware_safety_default
+      - majority_vote
+  validation:
+    require_all_outputs_driven: true
+    require_all_inputs_consumed_or_declared_unused: false
+    require_no_dangling_internal_signals: true
+    require_fsm_reachability: true
+    require_reset_defined_for_stateful_elements: true
+    require_width_consistency: true
+    require_clock_domain_annotations: true
+
+s2:
+  retrieval:
+    top_k: 5
+    weights:
+      embedding: 0.60
+      tag: 0.25
+      interface: 0.15
+    interface_subweights:
+      port_name: 0.30
+      width: 0.25
+      direction: 0.20
+      clock_reset: 0.15
+      parameter: 0.10
+  adaptation:
+    allow_bit_width_scaling: true
+    allow_parameter_substitution: true
+    allow_port_renaming: true
+    allow_signal_type_alignment: true
+    allow_interface_normalization: true
+  glue_logic:
+    allow_zero_extension: true
+    allow_truncation_only_if_explicit: false
+    allow_ready_valid_adapter: true
+    allow_enable_status_wiring: true
+    allow_clock_domain_adapter_only_if_cdc_kernel_available: true
+
+s1:
+  checker:
+    max_repair_iterations: 3
+    compile_tool: ghdl
+    simulation_tool: ghdl
+    synth_tool_optional: yosys_or_design_compiler
+    pass_criteria:
+      - static_structure
+      - compilation
+      - simulation
+      - functional_properties
+      - structural_properties
+    repair_scope: affected_module_only
