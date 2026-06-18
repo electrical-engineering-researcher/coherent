@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: t20_clock_enable_versus_clock_gating
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity t20_clock_enable_versus_clock_gating is
   generic (WIDTH : positive := 8);
   port (

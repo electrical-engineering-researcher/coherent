@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: r30_simple_fsm
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity r30_simple_fsm is
   generic (WIDTH : positive := 8);
   port (

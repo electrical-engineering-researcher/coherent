@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: t12_8_cycle_right_shift_delay_line
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity t12_8_cycle_right_shift_delay_line is
   generic (WIDTH : positive := 8);
   port (

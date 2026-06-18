@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: t17_serial_to_parallel_framing
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity t17_serial_to_parallel_framing is
   generic (WIDTH : positive := 8);
   port (

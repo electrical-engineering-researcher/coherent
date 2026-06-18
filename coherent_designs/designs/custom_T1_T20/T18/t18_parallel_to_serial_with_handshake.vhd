@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: t18_parallel_to_serial_with_handshake
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity t18_parallel_to_serial_with_handshake is
   generic (WIDTH : positive := 8);
   port (

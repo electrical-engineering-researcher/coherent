@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: t10_sequence_detector
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity t10_sequence_detector is
   generic (WIDTH : positive := 8);
   port (

@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: r29_register_file
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity r29_register_file is
   generic (WIDTH : positive := 8);
   port (

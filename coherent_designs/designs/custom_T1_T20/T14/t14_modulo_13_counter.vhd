@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: t14_modulo_13_counter
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity t14_modulo_13_counter is
   generic (WIDTH : positive := 8);
   port (

@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: t6_reset_policy_selection
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity t6_reset_policy_selection is
   generic (WIDTH : positive := 8);
   port (

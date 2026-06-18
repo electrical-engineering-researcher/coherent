@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: r13_ram_single_port
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity r13_ram_single_port is
   generic (WIDTH : positive := 8);
   port (

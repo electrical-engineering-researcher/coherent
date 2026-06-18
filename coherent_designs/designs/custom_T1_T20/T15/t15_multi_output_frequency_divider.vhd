@@ -3,7 +3,6 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- COHERENT custom stress-test implementation: t15_multi_output_frequency_divider
--- This file is a compact, synthesizable reference kernel/design used for reproducibility packaging.
 entity t15_multi_output_frequency_divider is
   generic (WIDTH : positive := 8);
   port (
