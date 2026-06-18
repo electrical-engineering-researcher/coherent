@@ -1,0 +1,8 @@
+{
+  "id": "T10",
+  "category": "FSM",
+  "design_task": "Sequence detector",
+  "targeted_reasoning_challenge": "Correct Mealy detection without one-cycle-late Moore behavior.",
+  "entity": "t10_sequence_detector",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

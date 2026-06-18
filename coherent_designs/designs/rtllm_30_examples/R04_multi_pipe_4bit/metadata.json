@@ -1,0 +1,6 @@
+{
+  "id": "R04",
+  "name": "multi_pipe_4bit",
+  "source": "RTL-LLM-style benchmark portion",
+  "note": "Template/example artifact, not claimed as original RTL-LLM source code."
+}

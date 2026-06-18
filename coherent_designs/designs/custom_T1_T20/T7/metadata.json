@@ -1,0 +1,8 @@
+{
+  "id": "T7",
+  "category": "Timing model",
+  "design_task": "Same-cycle accumulation",
+  "targeted_reasoning_challenge": "Use variable-based next value logic to avoid delta-cycle semantic errors.",
+  "entity": "t7_same_cycle_accumulation",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

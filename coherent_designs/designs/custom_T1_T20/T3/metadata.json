@@ -1,0 +1,8 @@
+{
+  "id": "T3",
+  "category": "Constraints",
+  "design_task": "2-stage pipelined multiplier",
+  "targeted_reasoning_challenge": "Interpret 100 MHz timing, generate XDC, and show visible pipelining.",
+  "entity": "t3_2_stage_pipelined_multiplier",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

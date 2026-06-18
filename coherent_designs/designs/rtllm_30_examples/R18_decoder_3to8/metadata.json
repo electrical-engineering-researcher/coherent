@@ -1,0 +1,6 @@
+{
+  "id": "R18",
+  "name": "decoder_3to8",
+  "source": "RTL-LLM-style benchmark portion",
+  "note": "Template/example artifact, not claimed as original RTL-LLM source code."
+}

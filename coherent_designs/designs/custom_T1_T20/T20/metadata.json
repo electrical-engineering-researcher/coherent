@@ -1,0 +1,8 @@
+{
+  "id": "T20",
+  "category": "Implicit assumptions",
+  "design_task": "Clock enable versus clock gating",
+  "targeted_reasoning_challenge": "FPGA-safe CE logic instead of gated clocks.",
+  "entity": "t20_clock_enable_versus_clock_gating",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

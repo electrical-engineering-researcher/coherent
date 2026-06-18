@@ -1,0 +1,8 @@
+{
+  "id": "T1",
+  "category": "Hierarchy",
+  "design_task": "Structural 4-bit ALU from submodules",
+  "targeted_reasoning_challenge": "Preserve entity-component hierarchy, component declarations, and correct port mapping.",
+  "entity": "t1_structural_4_bit_alu_from_submodule",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

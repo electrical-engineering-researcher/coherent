@@ -1,0 +1,8 @@
+{
+  "id": "T18",
+  "category": "Hierarchy",
+  "design_task": "Parallel-to-serial with handshake",
+  "targeted_reasoning_challenge": "Load/busy correctness and safe back-pressure behavior.",
+  "entity": "t18_parallel_to_serial_with_handshake",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

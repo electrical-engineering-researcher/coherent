@@ -1,0 +1,8 @@
+{
+  "id": "T8",
+  "category": "Timing model",
+  "design_task": "XOR output interpretation",
+  "targeted_reasoning_challenge": "Decide combinational vs registered output behavior explicitly.",
+  "entity": "t8_xor_output_interpretation",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

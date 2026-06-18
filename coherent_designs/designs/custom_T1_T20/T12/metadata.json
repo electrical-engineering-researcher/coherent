@@ -1,0 +1,8 @@
+{
+  "id": "T12",
+  "category": "Timing model",
+  "design_task": "8-cycle right-shift delay line",
+  "targeted_reasoning_challenge": "Exact pipeline depth and simultaneous taps.",
+  "entity": "t12_8_cycle_right_shift_delay_line",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

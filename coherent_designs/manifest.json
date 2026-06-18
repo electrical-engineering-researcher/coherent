@@ -1,0 +1,142 @@
+{
+  "custom_tasks": [
+    {
+      "id": "T1",
+      "folder": "designs/custom_T1_T20/T1",
+      "task": "Structural 4-bit ALU from submodules"
+    },
+    {
+      "id": "T2",
+      "folder": "designs/custom_T1_T20/T2",
+      "task": "Width-mismatch integration"
+    },
+    {
+      "id": "T3",
+      "folder": "designs/custom_T1_T20/T3",
+      "task": "2-stage pipelined multiplier"
+    },
+    {
+      "id": "T4",
+      "folder": "designs/custom_T1_T20/T4",
+      "task": "Distributed-RAM FIFO"
+    },
+    {
+      "id": "T5",
+      "folder": "designs/custom_T1_T20/T5",
+      "task": "Pulse CDC synchronizer"
+    },
+    {
+      "id": "T6",
+      "folder": "designs/custom_T1_T20/T6",
+      "task": "Reset-policy selection"
+    },
+    {
+      "id": "T7",
+      "folder": "designs/custom_T1_T20/T7",
+      "task": "Same-cycle accumulation"
+    },
+    {
+      "id": "T8",
+      "folder": "designs/custom_T1_T20/T8",
+      "task": "XOR output interpretation"
+    },
+    {
+      "id": "T9",
+      "folder": "designs/custom_T1_T20/T9",
+      "task": "3-state Moore FSM"
+    },
+    {
+      "id": "T10",
+      "folder": "designs/custom_T1_T20/T10",
+      "task": "Sequence detector"
+    },
+    {
+      "id": "T11",
+      "folder": "designs/custom_T1_T20/T11",
+      "task": "4-bit Johnson counter"
+    },
+    {
+      "id": "T12",
+      "folder": "designs/custom_T1_T20/T12",
+      "task": "8-cycle right-shift delay line"
+    },
+    {
+      "id": "T13",
+      "folder": "designs/custom_T1_T20/T13",
+      "task": "Multi-bit bus synchronizer"
+    },
+    {
+      "id": "T14",
+      "folder": "designs/custom_T1_T20/T14",
+      "task": "Modulo-13 counter"
+    },
+    {
+      "id": "T15",
+      "folder": "designs/custom_T1_T20/T15",
+      "task": "Multi-output frequency divider"
+    },
+    {
+      "id": "T16",
+      "folder": "designs/custom_T1_T20/T16",
+      "task": "Multi-waveform generator"
+    },
+    {
+      "id": "T17",
+      "folder": "designs/custom_T1_T20/T17",
+      "task": "Serial-to-parallel framing"
+    },
+    {
+      "id": "T18",
+      "folder": "designs/custom_T1_T20/T18",
+      "task": "Parallel-to-serial with handshake"
+    },
+    {
+      "id": "T19",
+      "folder": "designs/custom_T1_T20/T19",
+      "task": "Fast-to-slow pulse capture"
+    },
+    {
+      "id": "T20",
+      "folder": "designs/custom_T1_T20/T20",
+      "task": "Clock enable versus clock gating"
+    }
+  ],
+  "rtllm_examples": [
+    "accu",
+    "adder_8bit",
+    "multi_8bit",
+    "multi_pipe_4bit",
+    "counter_12",
+    "freq_multi",
+    "mux",
+    "serial2parallel_6",
+    "alu",
+    "barrel_shifter",
+    "priority_encoder",
+    "traffic_light",
+    "ram_single_port",
+    "fifo_sync",
+    "edge_detector",
+    "pulse_gen",
+    "timer",
+    "decoder_3to8",
+    "encoder_8to3",
+    "comparator",
+    "parity",
+    "lfsr",
+    "gray_counter",
+    "uart_tx_core",
+    "uart_rx_core",
+    "spi_master_stub",
+    "pwm",
+    "debouncer",
+    "register_file",
+    "simple_fsm"
+  ],
+  "kernel_counts": {
+    "manual_primitives": 62,
+    "benchmark_derived": 71,
+    "curated_patterns": 24,
+    "total": 157
+  }
+}

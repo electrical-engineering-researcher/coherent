@@ -1,0 +1,8 @@
+{
+  "id": "T2",
+  "category": "Hierarchy",
+  "design_task": "Width-mismatch integration",
+  "targeted_reasoning_challenge": "Handle 8-bit to 4-bit interface mismatch explicitly without silent truncation.",
+  "entity": "t2_width_mismatch_integration",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

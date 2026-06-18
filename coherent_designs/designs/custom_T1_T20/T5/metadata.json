@@ -1,0 +1,8 @@
+{
+  "id": "T5",
+  "category": "Implicit assumptions",
+  "design_task": "Pulse CDC synchronizer",
+  "targeted_reasoning_challenge": "Choose safe synchronizer implementation without being explicitly told.",
+  "entity": "t5_pulse_cdc_synchronizer",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

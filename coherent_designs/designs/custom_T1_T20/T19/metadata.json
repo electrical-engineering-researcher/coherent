@@ -1,0 +1,8 @@
+{
+  "id": "T19",
+  "category": "Timing / CDC",
+  "design_task": "Fast-to-slow pulse capture",
+  "targeted_reasoning_challenge": "No pulse loss through stretching/latching.",
+  "entity": "t19_fast_to_slow_pulse_capture",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

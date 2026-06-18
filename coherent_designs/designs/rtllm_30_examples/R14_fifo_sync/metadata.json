@@ -1,0 +1,6 @@
+{
+  "id": "R14",
+  "name": "fifo_sync",
+  "source": "RTL-LLM-style benchmark portion",
+  "note": "Template/example artifact, not claimed as original RTL-LLM source code."
+}

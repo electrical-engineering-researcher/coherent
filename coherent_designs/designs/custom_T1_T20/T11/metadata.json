@@ -1,0 +1,8 @@
+{
+  "id": "T11",
+  "category": "Control",
+  "design_task": "4-bit Johnson counter",
+  "targeted_reasoning_challenge": "Preserve twisted-ring feedback semantics.",
+  "entity": "t11_4_bit_johnson_counter",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

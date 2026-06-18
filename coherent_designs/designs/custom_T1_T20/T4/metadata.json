@@ -1,0 +1,8 @@
+{
+  "id": "T4",
+  "category": "Constraints",
+  "design_task": "Distributed-RAM FIFO",
+  "targeted_reasoning_challenge": "Force LUT/distributed RAM memory style rather than unintended BRAM inference.",
+  "entity": "t4_distributed_ram_fifo",
+  "source": "COHERENT custom stress-test task T1-T20"
+}

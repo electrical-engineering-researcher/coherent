@@ -1,0 +1,2671 @@
+[
+  {
+    "kernel_id": "K001",
+    "name": "manual_primitives_kernel_001_counter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K002",
+    "name": "manual_primitives_kernel_002_shift_register",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K003",
+    "name": "manual_primitives_kernel_003_synchronizer",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K004",
+    "name": "manual_primitives_kernel_004_fifo",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K005",
+    "name": "manual_primitives_kernel_005_arbiter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K006",
+    "name": "manual_primitives_kernel_006_uart_tx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K007",
+    "name": "manual_primitives_kernel_007_uart_rx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K008",
+    "name": "manual_primitives_kernel_008_fsm_template",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K009",
+    "name": "manual_primitives_kernel_009_clock_divider",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K010",
+    "name": "manual_primitives_kernel_010_datapath_operator",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K011",
+    "name": "manual_primitives_kernel_011_counter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K012",
+    "name": "manual_primitives_kernel_012_shift_register",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K013",
+    "name": "manual_primitives_kernel_013_synchronizer",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K014",
+    "name": "manual_primitives_kernel_014_fifo",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K015",
+    "name": "manual_primitives_kernel_015_arbiter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K016",
+    "name": "manual_primitives_kernel_016_uart_tx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K017",
+    "name": "manual_primitives_kernel_017_uart_rx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K018",
+    "name": "manual_primitives_kernel_018_fsm_template",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K019",
+    "name": "manual_primitives_kernel_019_clock_divider",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K020",
+    "name": "manual_primitives_kernel_020_datapath_operator",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K021",
+    "name": "manual_primitives_kernel_021_counter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K022",
+    "name": "manual_primitives_kernel_022_shift_register",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K023",
+    "name": "manual_primitives_kernel_023_synchronizer",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K024",
+    "name": "manual_primitives_kernel_024_fifo",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K025",
+    "name": "manual_primitives_kernel_025_arbiter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K026",
+    "name": "manual_primitives_kernel_026_uart_tx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K027",
+    "name": "manual_primitives_kernel_027_uart_rx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K028",
+    "name": "manual_primitives_kernel_028_fsm_template",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K029",
+    "name": "manual_primitives_kernel_029_clock_divider",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K030",
+    "name": "manual_primitives_kernel_030_datapath_operator",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K031",
+    "name": "manual_primitives_kernel_031_counter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K032",
+    "name": "manual_primitives_kernel_032_shift_register",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K033",
+    "name": "manual_primitives_kernel_033_synchronizer",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K034",
+    "name": "manual_primitives_kernel_034_fifo",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K035",
+    "name": "manual_primitives_kernel_035_arbiter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K036",
+    "name": "manual_primitives_kernel_036_uart_tx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K037",
+    "name": "manual_primitives_kernel_037_uart_rx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K038",
+    "name": "manual_primitives_kernel_038_fsm_template",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K039",
+    "name": "manual_primitives_kernel_039_clock_divider",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K040",
+    "name": "manual_primitives_kernel_040_datapath_operator",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K041",
+    "name": "manual_primitives_kernel_041_counter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K042",
+    "name": "manual_primitives_kernel_042_shift_register",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K043",
+    "name": "manual_primitives_kernel_043_synchronizer",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K044",
+    "name": "manual_primitives_kernel_044_fifo",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K045",
+    "name": "manual_primitives_kernel_045_arbiter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K046",
+    "name": "manual_primitives_kernel_046_uart_tx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K047",
+    "name": "manual_primitives_kernel_047_uart_rx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K048",
+    "name": "manual_primitives_kernel_048_fsm_template",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K049",
+    "name": "manual_primitives_kernel_049_clock_divider",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K050",
+    "name": "manual_primitives_kernel_050_datapath_operator",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K051",
+    "name": "manual_primitives_kernel_051_counter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K052",
+    "name": "manual_primitives_kernel_052_shift_register",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K053",
+    "name": "manual_primitives_kernel_053_synchronizer",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K054",
+    "name": "manual_primitives_kernel_054_fifo",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K055",
+    "name": "manual_primitives_kernel_055_arbiter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K056",
+    "name": "manual_primitives_kernel_056_uart_tx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K057",
+    "name": "manual_primitives_kernel_057_uart_rx",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K058",
+    "name": "manual_primitives_kernel_058_fsm_template",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K059",
+    "name": "manual_primitives_kernel_059_clock_divider",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K060",
+    "name": "manual_primitives_kernel_060_datapath_operator",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K061",
+    "name": "manual_primitives_kernel_061_counter",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K062",
+    "name": "manual_primitives_kernel_062_shift_register",
+    "source_category": "manual_primitives",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "manual_primitives",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K063",
+    "name": "benchmark_derived_kernel_001_counter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K064",
+    "name": "benchmark_derived_kernel_002_shift_register",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K065",
+    "name": "benchmark_derived_kernel_003_synchronizer",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K066",
+    "name": "benchmark_derived_kernel_004_fifo",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K067",
+    "name": "benchmark_derived_kernel_005_arbiter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K068",
+    "name": "benchmark_derived_kernel_006_uart_tx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K069",
+    "name": "benchmark_derived_kernel_007_uart_rx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K070",
+    "name": "benchmark_derived_kernel_008_fsm_template",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K071",
+    "name": "benchmark_derived_kernel_009_clock_divider",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K072",
+    "name": "benchmark_derived_kernel_010_datapath_operator",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K073",
+    "name": "benchmark_derived_kernel_011_counter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K074",
+    "name": "benchmark_derived_kernel_012_shift_register",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K075",
+    "name": "benchmark_derived_kernel_013_synchronizer",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K076",
+    "name": "benchmark_derived_kernel_014_fifo",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K077",
+    "name": "benchmark_derived_kernel_015_arbiter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K078",
+    "name": "benchmark_derived_kernel_016_uart_tx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K079",
+    "name": "benchmark_derived_kernel_017_uart_rx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K080",
+    "name": "benchmark_derived_kernel_018_fsm_template",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K081",
+    "name": "benchmark_derived_kernel_019_clock_divider",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K082",
+    "name": "benchmark_derived_kernel_020_datapath_operator",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K083",
+    "name": "benchmark_derived_kernel_021_counter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K084",
+    "name": "benchmark_derived_kernel_022_shift_register",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K085",
+    "name": "benchmark_derived_kernel_023_synchronizer",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K086",
+    "name": "benchmark_derived_kernel_024_fifo",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K087",
+    "name": "benchmark_derived_kernel_025_arbiter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K088",
+    "name": "benchmark_derived_kernel_026_uart_tx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K089",
+    "name": "benchmark_derived_kernel_027_uart_rx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K090",
+    "name": "benchmark_derived_kernel_028_fsm_template",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K091",
+    "name": "benchmark_derived_kernel_029_clock_divider",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K092",
+    "name": "benchmark_derived_kernel_030_datapath_operator",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K093",
+    "name": "benchmark_derived_kernel_031_counter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K094",
+    "name": "benchmark_derived_kernel_032_shift_register",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K095",
+    "name": "benchmark_derived_kernel_033_synchronizer",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K096",
+    "name": "benchmark_derived_kernel_034_fifo",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K097",
+    "name": "benchmark_derived_kernel_035_arbiter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K098",
+    "name": "benchmark_derived_kernel_036_uart_tx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K099",
+    "name": "benchmark_derived_kernel_037_uart_rx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K100",
+    "name": "benchmark_derived_kernel_038_fsm_template",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K101",
+    "name": "benchmark_derived_kernel_039_clock_divider",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K102",
+    "name": "benchmark_derived_kernel_040_datapath_operator",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K103",
+    "name": "benchmark_derived_kernel_041_counter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K104",
+    "name": "benchmark_derived_kernel_042_shift_register",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K105",
+    "name": "benchmark_derived_kernel_043_synchronizer",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K106",
+    "name": "benchmark_derived_kernel_044_fifo",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K107",
+    "name": "benchmark_derived_kernel_045_arbiter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K108",
+    "name": "benchmark_derived_kernel_046_uart_tx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K109",
+    "name": "benchmark_derived_kernel_047_uart_rx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K110",
+    "name": "benchmark_derived_kernel_048_fsm_template",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K111",
+    "name": "benchmark_derived_kernel_049_clock_divider",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K112",
+    "name": "benchmark_derived_kernel_050_datapath_operator",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K113",
+    "name": "benchmark_derived_kernel_051_counter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K114",
+    "name": "benchmark_derived_kernel_052_shift_register",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K115",
+    "name": "benchmark_derived_kernel_053_synchronizer",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K116",
+    "name": "benchmark_derived_kernel_054_fifo",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K117",
+    "name": "benchmark_derived_kernel_055_arbiter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K118",
+    "name": "benchmark_derived_kernel_056_uart_tx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K119",
+    "name": "benchmark_derived_kernel_057_uart_rx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K120",
+    "name": "benchmark_derived_kernel_058_fsm_template",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K121",
+    "name": "benchmark_derived_kernel_059_clock_divider",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K122",
+    "name": "benchmark_derived_kernel_060_datapath_operator",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K123",
+    "name": "benchmark_derived_kernel_061_counter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K124",
+    "name": "benchmark_derived_kernel_062_shift_register",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K125",
+    "name": "benchmark_derived_kernel_063_synchronizer",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K126",
+    "name": "benchmark_derived_kernel_064_fifo",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K127",
+    "name": "benchmark_derived_kernel_065_arbiter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K128",
+    "name": "benchmark_derived_kernel_066_uart_tx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K129",
+    "name": "benchmark_derived_kernel_067_uart_rx",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K130",
+    "name": "benchmark_derived_kernel_068_fsm_template",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K131",
+    "name": "benchmark_derived_kernel_069_clock_divider",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K132",
+    "name": "benchmark_derived_kernel_070_datapath_operator",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K133",
+    "name": "benchmark_derived_kernel_071_counter",
+    "source_category": "benchmark_derived",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "benchmark_derived",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K134",
+    "name": "curated_patterns_kernel_001_counter",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K135",
+    "name": "curated_patterns_kernel_002_shift_register",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K136",
+    "name": "curated_patterns_kernel_003_synchronizer",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K137",
+    "name": "curated_patterns_kernel_004_fifo",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K138",
+    "name": "curated_patterns_kernel_005_arbiter",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K139",
+    "name": "curated_patterns_kernel_006_uart_tx",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K140",
+    "name": "curated_patterns_kernel_007_uart_rx",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K141",
+    "name": "curated_patterns_kernel_008_fsm_template",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K142",
+    "name": "curated_patterns_kernel_009_clock_divider",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K143",
+    "name": "curated_patterns_kernel_010_datapath_operator",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K144",
+    "name": "curated_patterns_kernel_011_counter",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K145",
+    "name": "curated_patterns_kernel_012_shift_register",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K146",
+    "name": "curated_patterns_kernel_013_synchronizer",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K147",
+    "name": "curated_patterns_kernel_014_fifo",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K148",
+    "name": "curated_patterns_kernel_015_arbiter",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "arbiter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K149",
+    "name": "curated_patterns_kernel_016_uart_tx",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "uart_tx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K150",
+    "name": "curated_patterns_kernel_017_uart_rx",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "uart_rx",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K151",
+    "name": "curated_patterns_kernel_018_fsm_template",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "fsm_template",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K152",
+    "name": "curated_patterns_kernel_019_clock_divider",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "clock_divider",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K153",
+    "name": "curated_patterns_kernel_020_datapath_operator",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "datapath_operator",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K154",
+    "name": "curated_patterns_kernel_021_counter",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "counter",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K155",
+    "name": "curated_patterns_kernel_022_shift_register",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "shift_register",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K156",
+    "name": "curated_patterns_kernel_023_synchronizer",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "synchronizer",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  },
+  {
+    "kernel_id": "K157",
+    "name": "curated_patterns_kernel_024_fifo",
+    "source_category": "curated_patterns",
+    "language": "VHDL",
+    "validated": [
+      "compile",
+      "simulation",
+      "synthesis_smoke"
+    ],
+    "tags": [
+      "curated_patterns",
+      "fifo",
+      "reusable"
+    ],
+    "interface": "clk/rst/en/din/dout/valid compact schema"
+  }
+]
